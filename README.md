@@ -12,7 +12,7 @@
 | 8. poolsnp1_simulations.sh | #For calling SNPs using PoolSNP with miss-fraction = 0.1 |   
 | 9. poolsnp2_simulations.sh | #For calling SNPs using PoolSNP with miss-fraction = 0.8 |   
 
-| DROSOPHILA DGRPs FOLDER | |
+| DROSOPHILA DGRPs FOLDER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | |
 | ---  | --- | 
 | 1. STRAINS FOLDER | | 
 | 1.1. mapping_strains.sh | #For trimming, mapping and getting the bam and the mpileup files for each DGRP strain | 
