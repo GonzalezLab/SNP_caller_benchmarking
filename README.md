@@ -1,6 +1,6 @@
 # SNP_caller_benchmarking
 
-| SIMULATIONS FOLDER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  | 
+| SIMULATIONS FOLDER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  | 
 | ---  | --- |
 | 1. demography_simulations.sh | #For running the simulations under the joint demographic model and getting the bam and the mpileup files |   
 | 2. neutral_simulations.sh | #For running the simulations under the SNM and getting the bam and the mpileup files |
