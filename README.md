@@ -1,6 +1,6 @@
 # SNP_caller_benchmarking
 
-| SIMULATIONS FOLDER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  | 
+| SIMULATIONS FOLDER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  | 
 | ---  | --- |
 | 1. demography_simulations.sh | #For running the simulations under the joint demographic model and getting the bam and the mpileup files |   
 | 2. neutral_simulations.sh | #For running the simulations under the SNM and getting the bam and the mpileup files |
@@ -14,12 +14,12 @@
 
 | DROSOPHILA DGRPs FOLDER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | |
 | ---  | --- | 
-| 1. **STRAINS FOLDER** | | 
+| **1. STRAINS FOLDER** | | 
 | 1.1. mapping_strains.sh | #For trimming, mapping and getting the bam and the mpileup files for each DGRP strain | 
 | 1.2. angsd4ngsd.sh | #For estimate the genotype likelihoods for each site of each DGRP strain to calculate their inbreeding coefficient |  
 | 1.3. ngsd.sh | #For estimate the inbreeding coefficient of each DGRP strain using NGSD |  
 | 1.4. angsd.sh | #For calling biallelic SNPs using ANGSD taking into account the inbreeding coefficients of each strain |   
-| 2. **POOLS FOLDER** | | 
+| **2. POOLS FOLDER** | | 
 | 2.1. mapping_pool_ral.sh | #For trimming, mapping and getting the bam and the mpileup files for each pool of DGRP strains | 
 | 2.2. mapgd_pool_ral.sh | #For calling SNPs using MAPGD with three different thresholds for the log-likelihood ratio (LLR) test in each pool of DGRP strains |  
 | 2.3. varscan2_pool_ral.sh | #For calling SNPs using VarScan2 and filtering the SNPs with different cross-sample P-values in each pool of DGRP strains |  
